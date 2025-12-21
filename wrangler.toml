@@ -2,9 +2,12 @@
 name = "vadli-docs"             # Worker 名称，确保和 Cloudflare Pages 一致
 main = "./.svelte-kit/output/server/index.js"   # SvelteKit server 输出入口
 compatibility_flags = ["nodejs_compat"]        # 开启 Node 内置模块兼容
-type = "esm"                                    # ESM 模式
 account_id = "747065b1adc6a0ad30cfc001dde4d491"             # Cloudflare 账号 ID
 workers_dev = true                              # 是否使用 workers.dev 域名
+
+# 静态资源目录配置
+[assets]
+directory = "./.svelte-kit/output/client"
 
 # 可选：绑定 KV 或环境变量
 # [[vars]]
