@@ -8,6 +8,7 @@ workers_dev = true                              # 是否使用 workers.dev 域�
 # 静态资源目录配置
 [assets]
 directory = "./.svelte-kit/output/client"
+binding = "ASSETS"
 
 # 可选：绑定 KV 或环境变量
 # [[vars]]
