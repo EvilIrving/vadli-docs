@@ -1,8 +1,9 @@
 {
   "name": "vadli-docs-worker",
   "compatibility_date": "2025-12-21",
-  "main": "./.svelte-kit/output/server/index.js",   // Worker 入口
+  "main": "./.svelte-kit/output/server/index.js",
   "assets": {
-    "directory": "./.svelte-kit/output/client"      // 静态资源目录
+    "directory": "./.svelte-kit/output/client",
+    "binding": "ASSETS"
   }
 }
