@@ -68,7 +68,7 @@ In this codelab, we're working with the `tsconfig.json` and `module.yaml` defaul
 `tsconfig.json` specifies the TypeScript compiler options. This is a standard config file, you can read more about it in the [official TypeScript documentation](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html).
 
 ### module.yaml
-`module.yaml` is specific to Valdi. This config file controls the compiled module output. We'll cover a few common options here but the full set of options is available in the [Core Module documentation](../../core-module.md#moduleyaml).
+`module.yaml` is specific to Valdi. This config file controls the compiled module output. We'll cover a few common options here but the full set of options is available in the [Core Module documentation](../../docs/core-module.md#moduleyaml).
 
 Common options:
 - **`output_target`**: this can be specified globally or on a per platform basis

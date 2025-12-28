@@ -97,7 +97,7 @@ attributedTextBuilder.pop();
   <label value={attributedTextBuilder.build()} numberOfLines={3} />
 </layout>;
 ```
-![Screenshot of attributed text rendering styled text](./img/core-attributed-text-example.png)
+![Screenshot of attributed text rendering styled text](./img/docs/core-attributed-text-example.png)
 
 ## Complete API Reference
 

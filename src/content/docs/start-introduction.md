@@ -71,7 +71,7 @@ class HelloWorld extends Component {
 }
 ```
 
-![Screeshot of updated HelloWorld component rendering](./assets/start-introduction/IMG_1436.jpg)
+![Screeshot of updated HelloWorld component rendering "All is well…"](./assets/start-introduction/IMG_1436.jpg)
 
 It is also possible to embed conditions inside of xml nodes:
 

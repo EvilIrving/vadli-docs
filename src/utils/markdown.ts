@@ -52,10 +52,15 @@ const md: MarkdownIt = new MarkdownIt({
 
 // 解析 markdown 为 HTML
 // 移除第一个 h1 标题（避免与页面标题重复）
+// 修正图片路径：将相对路径转换为正确的静态资源路径
 export function parseMarkdown(content: string): string {
   // 移除第一个 # 标题
   const trimmed = content.replace(/^#\s+.+\n+/, '');
-  return md.render(trimmed);
+  const html = md.render(trimmed);
+  // 修正图片路径：./assets/xxx -> /src/content/docs/assets/xxx
+  return html
+    .replace(/\.\/assets\//g, '/src/content/docs/assets/')
+    .replace(/\.\/img\//g, '/src/content/docs/img/');
 }
 
 export { md };

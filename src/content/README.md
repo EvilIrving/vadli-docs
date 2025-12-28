@@ -13,20 +13,20 @@
 
 ## The Basics
 
- - [Valdi Module](./core-module.md)
- - [The Mighty Component](./core-component.md)
- - [Component States](./core-states.md)
- - [Component Events](./core-events.md)
+ - [Valdi Module](./docs/core-module.md)
+ - [The Mighty Component](./docs/core-component.md)
+ - [Component States](./docs/core-states.md)
+ - [Component Events](./docs/core-events.md)
  - [Control Flow](./docs/control-flow.md)
- - [FlexBox Layout](./core-flexbox.md)
- - [`<layout>` and `<view>`](./core-views.md)
- - [`<label>` and Text](./core-text.md)
- - [`<image>`](./core-images.md)
- - [`<video>`](./core-video.md)
- - [`<scroll>`](./core-scrolls.md)
- - [`<slot>`](./core-slots.md)
- - [`Style<>`](./core-styling.md)
- - [Touches and Gestures](./core-touches.md)
+ - [FlexBox Layout](./docs/core-flexbox.md)
+ - [`<layout>` and `<view>`](./docs/core-views.md)
+ - [`<label>` and Text](./docs/core-text.md)
+ - [`<image>`](./docs/core-images.md)
+ - [`<video>`](./docs/core-video.md)
+ - [`<scroll>`](./docs/core-scrolls.md)
+ - [`<slot>`](./docs/core-slots.md)
+ - [`Style<>`](./docs/core-styling.md)
+ - [Touches and Gestures](./docs/core-touches.md)
  - [Navigation](./docs/navigation.md)
 
 ## Native Integration

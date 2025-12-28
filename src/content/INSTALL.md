@@ -185,5 +185,5 @@ Ready to start building? Check out:
 
 - [Getting Started Codelab](https://github.com/Snapchat/Valdi/blob/main/docs/codelabs/getting_started/1-introduction.md)
 - [Documentation](https://github.com/Snapchat/Valdi/tree/main/docs#the-basics)
-- [API Reference](https://github.com/Snapchat/Valdi/tree/main/api)
+- [API Reference](https://github.com/Snapchat/Valdi/tree/main/docs/api)
 - [Command Line Reference](./docs/command-line-references.md)

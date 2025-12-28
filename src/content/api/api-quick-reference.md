@@ -535,9 +535,9 @@ if (element) {
 ## See Also
 
 - [Complete API Reference](api-reference-elements.md) - Full documentation with all properties
-- [Core Views Guide](../core-views.md) - Layout and view best practices
-- [Core Flexbox](../core-flexbox.md) - Understanding flexbox layout
-- [Core Images](../core-images.md) - Working with images
-- [Core Scrolls](../core-scrolls.md) - ScrollView patterns
-- [Core Text](../core-text.md) - Text and input components
+- [Core Views Guide](../docs/core-views.md) - Layout and view best practices
+- [Core Flexbox](../docs/core-flexbox.md) - Understanding flexbox layout
+- [Core Images](../docs/core-images.md) - Working with images
+- [Core Scrolls](../docs/core-scrolls.md) - ScrollView patterns
+- [Core Text](../docs/core-text.md) - Text and input components
 

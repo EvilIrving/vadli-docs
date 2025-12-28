@@ -6,7 +6,7 @@ If you've never done any web programming, `FlexBox` may be unfamiliar. Even if y
 
 Valdi uses [Yoga](https://github.com/facebook/yoga), Facebook's cross-platform flexbox layout engine, to implement flexbox layout. The behavior closely follows the CSS Flexible Box Layout specification with some extensions.
 
-> **For more details:** See [Core Flexbox](../../core-flexbox.md) for an introduction and [Style Attributes Reference](../../api/api-style-attributes.md#flexbox-layout-attributes) for the complete API reference including Yoga-specific behaviors.
+> **For more details:** See [Core Flexbox](../../docs/core-flexbox.md) for an introduction and [Style Attributes Reference](../../api/api-style-attributes.md#flexbox-layout-attributes) for the complete API reference including Yoga-specific behaviors.
 
 ### Important terms
 - **main axis**: in row mode this is horizontal, in column, it is vertical.

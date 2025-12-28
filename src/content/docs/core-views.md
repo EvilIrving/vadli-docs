@@ -8,7 +8,7 @@ Layout and Views are the basic building blocks of any Valdi feature.
 
 `<view>` is the main element for building a UI which emits an actual native platform view (`UIView`/`android.View`) instance that can be rendered.
 
-![Sketch of layout and view dimensions](./img/core-views-example.png)
+![Sketch of layout and view dimensions](./img/docs/core-views-example.png)
 
 
 Here is a quick comparison of their feature set.

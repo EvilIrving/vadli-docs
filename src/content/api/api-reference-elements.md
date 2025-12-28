@@ -1723,10 +1723,10 @@ type BlurStyle =
 
 ## See Also
 
-- [Core Views Guide](../core-views.md) - Practical guide to using layouts and views
-- [Core Images Guide](../core-images.md) - Image handling and assets
-- [Core Scrolls Guide](../core-scrolls.md) - ScrollView usage patterns
-- [Core Text Guide](../core-text.md) - Working with text and inputs
-- [Core Flexbox](../core-flexbox.md) - Understanding flexbox layout
+- [Core Views Guide](../docs/core-views.md) - Practical guide to using layouts and views
+- [Core Images Guide](../docs/core-images.md) - Image handling and assets
+- [Core Scrolls Guide](../docs/core-scrolls.md) - ScrollView usage patterns
+- [Core Text Guide](../docs/core-text.md) - Working with text and inputs
+- [Core Flexbox](../docs/core-flexbox.md) - Understanding flexbox layout
 - [Advanced Animations](../docs/advanced-animations.md) - Animating properties
 

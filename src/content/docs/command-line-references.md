@@ -54,10 +54,10 @@ Options:
 
 ## Available CLI Commands
 
-This section aims to cover each command more in-depth and will only provide some barebones usage patterns and descriptions since they are already available via the `--help` option.
+This section aims to cover each command more in-depth and will only provide some barebones usage patterns and descriptions since they are already available via the `--help` option.<br></br>
 
 `valdi completion`\
-Prints a code snippet and instructions to enable auto completion of available Valdi CLI commands. Optional and not required to use the CLI.
+Prints a code snippet and instructions to enable auto completion of available Valdi CLI commands. Optional and not required to use the CLI.<br></br>
 
 `valdi bootstrap [-y --confirm-bootstrap] [-n --project-name]`\
 Sets up a basic Valdi project in the current path by creating all required files to initially build and run the project.
@@ -67,15 +67,15 @@ Options:
 - `-n, --project-name`: Name of the project
 - `-t, --application-type`: Type of application to create
 - `-l, --valdi-import`: Full path to a local checkout of the Valdi repo
-- `-c, --with-cleanup`: Deletes all existing files in the current directory before initiating bootstrap
+- `-c, --with-cleanup`: Deletes all existing files in the current directory before initiating bootstrap<br></br>
 
 `valdi dev_setup`\
-Runs the automated environment setup script to install dependencies and configure the development environment. This command is typically run once during initial setup.
+Runs the automated environment setup script to install dependencies and configure the development environment. This command is typically run once during initial setup.<br></br>
 
 `valdi projectsync [--target target]`\
 Run this command to enable VS Code syntax highlighting for the current workspace project. This regenerates native bindings and updates VS Code project files.
 
-- If `--target` is specified, synchronizes only the specified Bazel target.
+- If `--target` is specified, synchronizes only the specified Bazel target.<br></br>
 
 `valdi new_module [module-name]`\
 Create a new Valdi module with boilerplate structure including BUILD.bazel, module.yaml, and basic source files.
@@ -97,21 +97,21 @@ valdi new_module
 # Create module with options
 valdi new_module my_module --skip-checks
 ```
-
+<br></br>
 
 `valdi build <platform> [--application] [--bazel_args]`\
 Build the application without installing it to a device. Useful for CI/CD pipelines or when you just want to verify the build succeeds.
 
 - Supported platforms: `android`, `ios`, `macos`, `cli`
 - If no `--application` is specified, command will query for valid targets in the current workspace.
-- Additional Bazel arguments can be passed in via `--bazel_args` option.
+- Additional Bazel arguments can be passed in via `--bazel_args` option.<br></br>
 
 `valdi install <platform> [--application] [--bazel_args]`\
 Build and install a Valdi application on the given platform to a connected device or emulator.
 
 - Supported platforms: `android`, `ios`, `macos`
 - If no `--application` is specified, command will query for valid targets in the current workspace.
-- Additional Bazel arguments can be passed in via `--bazel_args` option.
+- Additional Bazel arguments can be passed in via `--bazel_args` option.<br></br>
 
 `valdi package <platform> [--application] --output_path <path>`\
 Build and package a Valdi application into a distributable format.
@@ -125,7 +125,7 @@ Example:
 valdi package android --output_path ./dist/app.apk
 valdi package ios --output_path ./dist/app.ipa
 ```
-
+<br></br>
 
 `valdi export <platform> [--library] --output_path <path>`\
 Build and export a Valdi library for integration into native applications. Creates platform-specific library packages.
@@ -141,21 +141,21 @@ Example:
 valdi export ios --output_path ./output/MyLibrary.xcframework
 valdi export android --output_path ./output/mylibrary.aar
 ```
-
+<br></br>
 
 `valdi hotreload [--module module_name] [--target target_name]`\
 Starts the Valdi [hotreloader](./start-about.md#prototype-quickly-with-hot-reload) for the application target.
 
 - When `--module` and `--target` is omitted, it will attempt to run the application target of the current workspace. If there is more than one defined application, the specific target will need to be specified.
 - The `--target` option should be a valid Bazel target (ex: `//:hello_world_hotreload`).
-- The `--module` option will query and run targets in the current workspace which match the module_name.
+- The `--module` option will query and run targets in the current workspace which match the module_name.<br></br>
 
 `valdi test [--module module_name] [--target target_name]`\
-Executes the test(s) for the provided targets. Note that multiple modules OR targets can be provided to execute all tests simultaneously. If no modules or targets are provided, ALL tests within the current workspace will be ran.
+Executes the test(s) for the provided targets. Note that multiple modules OR targets can be provided to execute all tests simultaneously. If no modules or targets are provided, ALL tests within the current workspace will be ran.<br></br>
 
 `valdi lint check [files...]`\
 `valdi lint format [files...]`\
-Runs the prettier linter on the provided files. The files given can be passed via wildcards. If a prettier config does not exist, a basic one will be created. Further customizations can be done via manually editing the created `.prettierrc.json`.
+Runs the prettier linter on the provided files. The files given can be passed via wildcards. If a prettier config does not exist, a basic one will be created. Further customizations can be done via manually editing the created `.prettierrc.json`.<br></br>
 
 `valdi doctor [--verbose] [--fix] [--json] [--framework] [--project]`\
 Check your Valdi development environment for common issues. Performs comprehensive health checks on system requirements, tool installations, and workspace configuration.
@@ -180,7 +180,7 @@ valdi doctor --project --framework --json
 ```
 
 > [!TIP]
-> Run `valdi doctor` if you encounter setup issues or build failures. It will identify common problems and suggest solutions.
+> Run `valdi doctor` if you encounter setup issues or build failures. It will identify common problems and suggest solutions.<br></br>
 
 `valdi log`\
 Displays and streams the Valdi logs. Will prompt user for selection if multiple logs are detected. The list of logs are ordered by descending modification time, with newest entries on the top.

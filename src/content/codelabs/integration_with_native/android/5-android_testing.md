@@ -3,7 +3,7 @@ Remember when we added all of those ids? It's time to put them to use.
 
 In this section we'll be working entirely within the Android code base.
 
-Because Valdi is it's own special rendering engine, we won't be able to create Robolectric tests, we need to load up the whole runtime so these are going to be [instrumentation tests](https://source.android.com/core/tests/development/instrumentation).
+Because Valdi is it's own special rendering engine, we won't be able to create Robolectric tests, we need to load up the whole runtime so these are going to be [instrumentation tests](https://source.android.com/docs/core/tests/development/instrumentation).
 
 On Android, Valdi may render your UI with native Android Views or with SnapDrawing. Android Views are nice and stable and well known, SnapDrawing is the new hotness that's fast but still in A/B.
 
