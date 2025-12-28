@@ -1,28 +1,29 @@
 /* ========================================
-   GitHub-Style + Coder Design System
+   Tokyo Night Theme - Coder Design System
    ======================================== */
 
 :root {
-  /* GitHub-Style 基础配色 */
-  --color-bg: #ffffff;
-  --color-bg-secondary: #f6f8fa;
-  --color-bg-tertiary: #f0f3f6;
-  --color-border: #d0d7de;
-  --color-border-light: #e8ebee;
-  --color-text: #1f2328;
-  --color-text-secondary: #656d76;
-  --color-text-muted: #8b949e;
-  --color-primary: #0969da;
-  --color-primary-hover: #0860c7;
-  --color-success: #1a7f37;
-  --color-warning: #9a6700;
-  --color-danger: #cf222e;
+  /* Tokyo Night 基础配色 */
+  --color-bg: #1a1b26;
+  --color-bg-secondary: #24283b;
+  --color-bg-tertiary: #414868;
+  --color-border: #414868;
+  --color-border-light: #2f3549;
+  --color-text: #a9b1d6;
+  --color-text-secondary: #787c99;
+  --color-text-muted: #565f89;
+  --color-primary: #7aa2f7;
+  --color-primary-hover: #bb9af7;
+  --color-success: #9ece6a;
+  --color-warning: #e0af68;
+  --color-danger: #f7768e;
 
-  /* Coder 强调色 */
-  --color-accent-green: #2ea043;
-  --color-accent-purple: #8250df;
-  --color-accent-orange: #d29922;
-  --color-code-bg: #f6f8fa;
+  /* 强调色 */
+  --color-accent-green: #9ece6a;
+  --color-accent-purple: #bb9af7;
+  --color-accent-orange: #ff9e64;
+  --color-accent-red: #f7768e;
+  --color-code-bg: #1a1b26;
 
   /* 尺寸 */
   --radius-sm: 4px;
@@ -32,28 +33,13 @@
   --topnav-height: 48px;
 
   /* 字体 */
-  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
-  --font-mono: "SF Mono", "Cascadia Code", "Roboto Mono", Menlo, Consolas, "DejaVu Sans Mono", monospace;
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, sans-serif;
+  --font-mono: "JetBrains Mono", "SF Mono", "Cascadia Code", "Roboto Mono", Menlo, Consolas, monospace;
 }
 
-/* 深色模式 */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-bg: #0d1117;
-    --color-bg-secondary: #161b22;
-    --color-bg-tertiary: #21262d;
-    --color-border: #30363d;
-    --color-border-light: #21262d;
-    --color-text: #c9d1d9;
-    --color-text-secondary: #8b949e;
-    --color-text-muted: #6e7681;
-    --color-primary: #58a6ff;
-    --color-primary-hover: #79c0ff;
-    --color-code-bg: #161b22;
-  }
-}
-
-/* 基础重置 */
+/* ========================================
+   Reset & Base
+   ======================================== */
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -72,14 +58,16 @@ html, body {
 a {
   color: var(--color-primary);
   text-decoration: none;
+  transition: color 0.15s;
 }
 
 a:hover {
-  text-decoration: underline;
+  color: var(--color-primary-hover);
+  text-decoration: none;
 }
 
 /* ========================================
-   Top Navigation (GitHub-Style)
+   Top Navigation
    ======================================== */
 .topnav {
   position: fixed;
@@ -129,7 +117,7 @@ a:hover {
   text-decoration: none;
 }
 
-/* Coder: 键盘快捷键提示 */
+/* 键盘快捷键提示 */
 .kbd {
   display: inline-block;
   padding: 2px 6px;
@@ -146,7 +134,7 @@ a:hover {
 }
 
 /* ========================================
-   Sidebar (Coder File Tree Style)
+   Sidebar
    ======================================== */
 .sidebar {
   position: fixed;
@@ -177,7 +165,7 @@ a:hover {
   gap: 6px;
   border-radius: var(--radius-md);
   margin: 0 8px;
-  transition: background 0.15s;
+  transition: all 0.15s;
 }
 
 .sidebar__section-title:hover {
@@ -188,6 +176,7 @@ a:hover {
 .sidebar__section-title svg {
   width: 14px;
   height: 14px;
+  color: var(--color-text-muted);
   transition: transform 0.15s;
 }
 
@@ -195,7 +184,7 @@ a:hover {
   transform: rotate(90deg);
 }
 
-/* 极客风格：展开/收起图标 */
+/* 展开/收起图标 */
 .tree-toggle {
   display: inline-flex;
   align-items: center;
@@ -212,7 +201,7 @@ a:hover {
   transform: rotate(90deg);
 }
 
-/* 极客风格：节点图标 */
+/* 节点图标 */
 .tree-node {
   font-family: var(--font-mono);
   font-size: 14px;
@@ -253,7 +242,7 @@ a:hover {
 
 .sidebar__item.active {
   color: var(--color-text);
-  background: var(--color-bg-tertiary);
+  background: var(--color-bg-secondary);
 }
 
 /* ========================================
@@ -263,20 +252,17 @@ a:hover {
   padding-top: var(--topnav-height);
   padding-left: var(--sidebar-width);
   min-height: 100vh;
-  background: var(--color-bg-secondary);
+  background: var(--color-bg);
 }
 
 .docs-content {
   max-width: 900px;
   margin: 0 auto;
   padding: 32px 48px;
-  background: var(--color-bg);
   min-height: calc(100vh - var(--topnav-height));
-  border-left: 1px solid var(--color-border);
-  border-right: 1px solid var(--color-border);
 }
 
-/* Coder: 面包屑导航 */
+/* 面包屑导航 */
 .breadcrumb {
   display: flex;
   align-items: center;
@@ -289,6 +275,11 @@ a:hover {
 
 .breadcrumb__item {
   color: var(--color-text-secondary);
+  transition: color 0.15s;
+}
+
+.breadcrumb__item:hover {
+  color: var(--color-primary);
 }
 
 .breadcrumb__item:last-child {
@@ -299,15 +290,12 @@ a:hover {
   color: var(--color-border);
 }
 
-.docs-content__wrapper {
-  /* Coder: 文章区域 */
-}
-
 .docs-content__title {
   font-size: 32px;
   font-weight: 600;
   margin-bottom: 8px;
   color: var(--color-text);
+  letter-spacing: -0.02em;
 }
 
 .docs-content__meta {
@@ -322,12 +310,10 @@ a:hover {
 .docs-content__text {
   font-size: 15px;
   line-height: 1.7;
-  white-space: pre-wrap;
-  word-wrap: break-word;
 }
 
 /* ========================================
-   Home Page (GitHub-Style)
+   Home Page
    ======================================== */
 .home {
   min-height: 100vh;
@@ -338,7 +324,7 @@ a:hover {
 .home__hero {
   max-width: 900px;
   margin: 0 auto;
-  padding: 48px 32px;
+  padding: 64px 32px;
   border-bottom: 1px solid var(--color-border);
 }
 
@@ -352,8 +338,8 @@ a:hover {
   font-size: 12px;
   font-weight: 500;
   color: var(--color-success);
-  background: rgba(46, 160, 67, 0.1);
-  border: 1px solid rgba(46, 160, 67, 0.3);
+  background: rgba(158, 206, 106, 0.1);
+  border: 1px solid rgba(158, 206, 106, 0.3);
   border-radius: 9999px;
   margin-bottom: 16px;
 }
@@ -362,6 +348,7 @@ a:hover {
   font-size: 40px;
   font-weight: 600;
   margin-bottom: 12px;
+  color: var(--color-text);
   letter-spacing: -0.02em;
 }
 
@@ -394,19 +381,19 @@ a:hover {
 }
 
 .home__btn--primary {
-  background: var(--color-text);
+  background: var(--color-primary);
   color: var(--color-bg);
-  border-color: var(--color-text);
+  border-color: var(--color-primary);
 }
 
 .home__btn--primary:hover {
-  background: var(--color-bg);
-  color: var(--color-text);
+  background: var(--color-primary-hover);
+  border-color: var(--color-primary-hover);
   text-decoration: none;
 }
 
 .home__btn--secondary {
-  background: var(--color-bg);
+  background: transparent;
   color: var(--color-text);
   border-color: var(--color-border);
 }
@@ -422,9 +409,7 @@ a:hover {
   height: 16px;
 }
 
-/* ========================================
-   Features Section
-   ======================================== */
+/* Features Section */
 .home__features {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -436,15 +421,16 @@ a:hover {
 }
 
 .home__feature {
-  background: var(--color-bg);
+  background: var(--color-bg-secondary);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-lg);
   padding: 20px;
-  transition: border-color 0.15s;
+  transition: all 0.15s;
 }
 
 .home__feature:hover {
   border-color: var(--color-text-muted);
+  transform: translateY(-2px);
 }
 
 .home__feature-header {
@@ -460,7 +446,7 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--color-bg-secondary);
+  background: var(--color-bg-tertiary);
   border-radius: var(--radius-md);
   border: 1px solid var(--color-border);
 }
@@ -474,6 +460,7 @@ a:hover {
 .home__feature-title {
   font-size: 16px;
   font-weight: 600;
+  color: var(--color-text);
 }
 
 .home__feature-desc {
@@ -489,7 +476,7 @@ a:hover {
 }
 
 .home__feature-link:hover {
-  text-decoration: underline;
+  color: var(--color-primary-hover);
 }
 
 /* ========================================
@@ -535,6 +522,35 @@ code {
   font-size: 18px;
   color: var(--color-text-secondary);
   margin-bottom: 24px;
+}
+
+/* ========================================
+   Scrollbar Styling
+   ======================================== */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-text-muted);
+}
+
+/* ========================================
+   Selection
+   ======================================== */
+::selection {
+  background: var(--color-primary);
+  color: var(--color-bg);
 }
 
 /* ========================================

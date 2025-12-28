@@ -2,24 +2,27 @@
 import { computed } from 'vue'
 import DocsLayout from '../components/DocsLayout.vue'
 import { route } from '@/utils/docs-logic'
+import { parseMarkdown } from '@/utils/markdown'
 import { docMeta } from '@/utils/seo'
 import { seo } from '@/composables/useSeo'
+import '@/assets/markdown.css'
 
 const props = defineProps<{ category: string; slug: string | string[] }>()
 const fullSlug = computed(() => `${props.category}/${Array.isArray(props.slug) ? props.slug.join('/') : props.slug}`)
 const res = computed(() => route(fullSlug.value))
 const is404 = computed(() => res.value.status === 404)
 const is500 = computed(() => res.value.status === 500)
-const content = computed(() => res.value.data?.content || '')
+const rawContent = computed(() => res.value.data?.content || '')
+const htmlContent = computed(() => parseMarkdown(rawContent.value))
 
-const pageTitle = computed(() => content.value?.match(/^#\s+(.+)$/m)?.[1]
+const pageTitle = computed(() => rawContent.value?.match(/^#\s+(.+)$/m)?.[1]
   || String(props.slug).split('/').pop()?.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase())
   || 'Documentation')
 
 const seoMeta = computed(() => {
   if (is404.value) return { title: '404 - Page Not Found', description: 'Not found', robots: 'noindex' }
   if (is500.value) return { title: '500 - Error', description: 'Error', robots: 'noindex' }
-  return docMeta(props.category, String(props.slug), pageTitle.value, content.value)
+  return docMeta(props.category, String(props.slug), pageTitle.value, rawContent.value)
 })
 
 seo(seoMeta)
@@ -61,7 +64,7 @@ const breadcrumbPath = computed(() => {
       <div class="docs-content__meta">
         <span>{{ fullSlug }}</span>
       </div>
-      <div class="docs-content__text">{{ content }}</div>
+      <div class="docs-content__text markdown-content" v-html="htmlContent"></div>
     </div>
   </DocsLayout>
 </template>
