@@ -13,17 +13,17 @@ export interface SeoMetaData {
 }
 
 const DEFAULT: SeoMetaData = {
-  title: 'Vadli Documentation - Cross-Platform App Development Framework',
-  description: 'Comprehensive documentation for Vadli, a powerful framework for building cross-platform applications. Learn core concepts, API references, and step-by-step tutorials.',
-  keywords: 'Vadli, cross-platform, mobile development, native integration, app framework, documentation, API reference',
-  author: 'Vadli',
+  title: 'Valdi Documentation - Cross-Platform App Development Framework',
+  description: 'Comprehensive documentation for Valdi, a powerful framework for building cross-platform applications. Learn core concepts, API references, and step-by-step tutorials.',
+  keywords: 'Valdi, cross-platform, mobile development, native integration, app framework, documentation, API reference',
+  author: 'Valdi',
   ogType: 'website',
-  ogImage: 'https://vadli-docs.onecat.dev/og-image.png',
+  ogImage: 'https://valdi-docs.onecat.dev/og-image.png',
   twitterCard: 'summary_large_image',
   robots: 'index, follow'
 }
 
-const SITE_URL = 'https://vadli-docs.onecat.dev'
+const SITE_URL = 'https://valdi-docs.onecat.dev'
 
 function setTag(attr: 'name' | 'property', key: string, val: string) {
   let el = document.querySelector(`meta[${attr}="${key}"]`)
@@ -68,9 +68,9 @@ export function docMeta(cat: string, slug: string, title: string, content?: stri
   }
   const catName = cat.charAt(0).toUpperCase() + cat.slice(1)
   return {
-    title: `${title} - ${catName} | Vadli Documentation`,
+    title: `${title} - ${catName} | Valdi Documentation`,
     description: desc,
-    keywords: `${title.toLowerCase()}, Vadli ${cat}, ${DEFAULT.keywords}`,
+    keywords: `${title.toLowerCase()}, Valdi ${cat}, ${DEFAULT.keywords}`,
     canonical: url,
     ogType: 'article',
     ogImage: `${SITE_URL}/og-image.png`,
@@ -105,7 +105,7 @@ export function articleData(title: string, desc: string, url: string): object {
     headline: title,
     description: desc,
     url,
-    publisher: { '@type': 'Organization', name: 'Vadli', url: SITE_URL },
+    publisher: { '@type': 'Organization', name: 'Valdi', url: SITE_URL },
     mainEntityOfPage: { '@type': 'WebPage', '@id': url }
   }
 }

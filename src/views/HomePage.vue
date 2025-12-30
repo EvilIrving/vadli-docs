@@ -3,9 +3,9 @@ import { HOME } from '@/utils/docs-logic'
 import { seo } from '@/composables/useSeo'
 
 seo({
-  title: 'Vadli Documentation - Cross-Platform App Development Framework',
-  description: 'Learn to build stunning cross-platform applications with Vadli. Comprehensive guides, API references, and hands-on tutorials.',
-  canonical: 'https://vadli-docs.onecat.dev/',
+  title: 'Valdi Documentation - Cross-Platform App Development Framework',
+  description: 'Learn to build stunning cross-platform applications with Valdi. Comprehensive guides, API references, and hands-on tutorials.',
+  canonical: 'https://valdi-docs.onecat.dev/',
   ogType: 'website'
 })
 
@@ -23,7 +23,7 @@ const valdiUrl = 'https://github.com/Snapchat/Valdi'
           Unofficial Documentation
         </div>
         <h1 class="hero__title">
-          <span class="hero__title-main">Vadli</span>
+          <span class="hero__title-main">Valdi</span>
           <span class="hero__title-sub">Framework</span>
         </h1>
         <p class="hero__subtitle">

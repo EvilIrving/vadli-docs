@@ -110,8 +110,8 @@ export function route(slug: string): RouteResult<DocRouteData> {
 }
 
 export const HOME: HomeConfig = {
-  title: 'Vadli Documentation',
-  subtitle: 'Learn how to build cross-platform applications with Vadli',
+  title: 'Valdi Documentation',
+  subtitle: 'Learn how to build cross-platform applications with Valdi',
   primary: { title: 'Get Started', href: '/docs/start-introduction' },
   secondary: { title: 'API Reference', href: '/api/api-quick-reference' },
   quickLinks: [
@@ -121,13 +121,13 @@ export const HOME: HomeConfig = {
     { title: 'API Reference', desc: 'Complete element docs', href: '/api/api-quick-reference', icon: '<svg viewBox="0 0 16 16" fill="currentColor"><path d="M1.5 1.5A1.5 1.5 0 013 3h10a1.5 1.5 0 011.5 1.5v10a1.5 1.5 0 01-1.5 1.5H3a1.5 1.5 0 01-1.5-1.5V1.5zM3 2h10a2 2 0 012 2v10a2 2 0 01-2 2H3a2 2 0 01-2-2V4a2 2 0 012-2z"/></svg>' }
   ],
   features: [
-    { title: 'Comprehensive Docs', desc: 'In-depth guides covering all aspects of Vadli development, from basics to advanced patterns.', href: '/docs/start-introduction', label: 'Browse docs', icon: '<svg viewBox="0 0 16 16" fill="currentColor"><path d="M1.5 1.5A1.5 1.5 0 013 3h10a1.5 1.5 0 011.5 1.5v10a1.5 1.5 0 01-1.5 1.5H3a1.5 1.5 0 01-1.5-1.5V1.5zM3 2h10a2 2 0 012 2v10a2 2 0 01-2 2H3a2 2 0 01-2-2V4a2 2 0 012-2z"/></svg>' },
+    { title: 'Comprehensive Docs', desc: 'In-depth guides covering all aspects of Valdi development, from basics to advanced patterns.', href: '/docs/start-introduction', label: 'Browse docs', icon: '<svg viewBox="0 0 16 16" fill="currentColor"><path d="M1.5 1.5A1.5 1.5 0 013 3h10a1.5 1.5 0 011.5 1.5v10a1.5 1.5 0 01-1.5 1.5H3a1.5 1.5 0 01-1.5-1.5V1.5zM3 2h10a2 2 0 012 2v10a2 2 0 01-2 2H3a2 2 0 01-2-2V4a2 2 0 012-2z"/></svg>' },
     { title: 'Hands-on Codelabs', desc: 'Step-by-step tutorials where you build real features and learn by doing.', href: '/codelabs/getting_started/1-introduction', label: 'Start codelabs', icon: '<svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 1a.75.75 0 01.75.75v5.69l1.22-1.22a.75.75 0 111.06 1.06l-2.5 2.5a.75.75 0 01-1.06 0l-2.5-2.5a.75.75 0 111.06-1.06l1.22 1.22V1.75A.75.75 0 018 1z"/></svg>' },
     { title: 'Complete API Reference', desc: 'Detailed documentation for all elements, attributes, and standard library APIs.', href: '/api/api-quick-reference', label: 'View API', icon: '<svg viewBox="0 0 16 16" fill="currentColor"><path d="M1.5 1.5A1.5 1.5 0 013 3h10a1.5 1.5 0 011.5 1.5v10a1.5 1.5 0 01-1.5 1.5H3a1.5 1.5 0 01-1.5-1.5V1.5zM3 2h10a2 2 0 012 2v10a2 2 0 01-2 2H3a2 2 0 01-2-2V4a2 2 0 012-2z"/></svg>' }
   ],
   aboutMarkdown: {
-    title: 'About Vadli Docs',
-    desc: 'This is the web documentation for Vadli (formerly Snap Layout), built by the community for better accessibility, searchability, and offline support. Fast, beautiful, and always available.',
-    repoUrl: 'https://github.com/EvilIrving/vadli-docs'
+    title: 'About Valdi Docs',
+    desc: 'This is the web documentation for Valdi (formerly Snap Layout), built by the community for better accessibility, searchability, and offline support. Fast, beautiful, and always available.',
+    repoUrl: 'https://github.com/EvilIrving/valdi-docs'
   }
 }

@@ -3,7 +3,7 @@ import { writeFileSync } from 'fs'
 import { resolve } from 'path'
 import { glob } from 'glob'
 
-const SITE_URL = 'https://vadli-docs.onecat.dev'
+const SITE_URL = 'https://valdi-docs.onecat.dev'
 
 // Import document modules to get all available routes
 const docModulesPath = './src/content'

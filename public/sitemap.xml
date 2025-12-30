@@ -1,673 +1,673 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://vadli-docs.onecat.dev</loc>
+    <loc>https://valdi-docs.onecat.dev</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/TROUBLESHOOTING</loc>
+    <loc>https://valdi-docs.onecat.dev/TROUBLESHOOTING</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/README</loc>
+    <loc>https://valdi-docs.onecat.dev/README</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/INSTALL</loc>
+    <loc>https://valdi-docs.onecat.dev/INSTALL</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/DEV_SETUP</loc>
+    <loc>https://valdi-docs.onecat.dev/DEV_SETUP</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/setup/macos_setup</loc>
+    <loc>https://valdi-docs.onecat.dev/setup/macos_setup</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/setup/linux_setup</loc>
+    <loc>https://valdi-docs.onecat.dev/setup/linux_setup</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/codelabs/how_to_get_help</loc>
+    <loc>https://valdi-docs.onecat.dev/codelabs/how_to_get_help</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/api/api-style-attributes</loc>
+    <loc>https://valdi-docs.onecat.dev/api/api-style-attributes</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/api/api-reference-elements</loc>
+    <loc>https://valdi-docs.onecat.dev/api/api-reference-elements</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/api/api-quick-reference</loc>
+    <loc>https://valdi-docs.onecat.dev/api/api-quick-reference</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/workflow-testing</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/workflow-testing</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/workflow-style-guide</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/workflow-style-guide</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/workflow-inspector</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/workflow-inspector</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/workflow-hermes-debugger</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/workflow-hermes-debugger</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/workflow-external-build-system</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/workflow-external-build-system</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/workflow-disk</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/workflow-disk</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/workflow-cli-application</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/workflow-cli-application</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/workflow-bazel</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/workflow-bazel</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/workflow-appstore-release</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/workflow-appstore-release</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/third-party-dependencies</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/third-party-dependencies</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/stdlib-persistence</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/stdlib-persistence</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/stdlib-http</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/stdlib-http</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/stdlib-filesystem</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/stdlib-filesystem</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/stdlib-coreutils</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/stdlib-coreutils</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/start-introduction</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/start-introduction</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/start-install</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/start-install</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/start-from-react</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/start-from-react</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/start-code-lab</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/start-code-lab</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/start-about</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/start-about</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/performance-view-recycling</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/performance-view-recycling</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/performance-tracing</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/performance-tracing</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/performance-optimization</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/performance-optimization</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/performance-memory-leaks</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/performance-memory-leaks</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/navigation</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/navigation</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/native-view-model</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/native-view-model</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/native-types</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/native-types</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/native-polyglot</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/native-polyglot</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/native-customviews</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/native-customviews</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/native-context</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/native-context</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/native-collectionview</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/native-collectionview</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/native-bindings</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/native-bindings</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/native-annotations</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/native-annotations</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/help-troubleshooting</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/help-troubleshooting</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/help-support</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/help-support</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/glossary</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/glossary</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/faq</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/faq</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/core-views</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/core-views</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/core-video</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/core-video</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/core-touches</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/core-touches</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/core-text</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/core-text</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/core-styling</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/core-styling</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/core-states</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/core-states</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/core-slots</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/core-slots</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/core-scrolls</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/core-scrolls</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/core-module</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/core-module</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/core-images</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/core-images</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/core-flexbox</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/core-flexbox</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/core-events</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/core-events</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/core-component</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/core-component</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/control-flow</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/control-flow</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/command-line-references</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/command-line-references</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/client-libraries-rxjs</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/client-libraries-rxjs</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/advanced-worker-service</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/advanced-worker-service</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/advanced-provider</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/advanced-provider</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/advanced-protobuf</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/advanced-protobuf</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/advanced-native-references</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/advanced-native-references</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/advanced-localization</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/advanced-localization</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/advanced-images</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/advanced-images</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/advanced-full-stack</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/advanced-full-stack</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/advanced-element-references</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/advanced-element-references</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/docs/advanced-animations</loc>
+    <loc>https://valdi-docs.onecat.dev/docs/advanced-animations</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/codelabs/shared_business_logic/4-native_annotations</loc>
+    <loc>https://valdi-docs.onecat.dev/codelabs/shared_business_logic/4-native_annotations</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/codelabs/shared_business_logic/3-business_logic</loc>
+    <loc>https://valdi-docs.onecat.dev/codelabs/shared_business_logic/3-business_logic</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/codelabs/shared_business_logic/2-setup_module</loc>
+    <loc>https://valdi-docs.onecat.dev/codelabs/shared_business_logic/2-setup_module</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/codelabs/shared_business_logic/1-introduction</loc>
+    <loc>https://valdi-docs.onecat.dev/codelabs/shared_business_logic/1-introduction</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/codelabs/integration_with_native/6-native_build_module</loc>
+    <loc>https://valdi-docs.onecat.dev/codelabs/integration_with_native/6-native_build_module</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/codelabs/integration_with_native/5-get_ready_for_testing</loc>
+    <loc>https://valdi-docs.onecat.dev/codelabs/integration_with_native/5-get_ready_for_testing</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/codelabs/integration_with_native/4-get_friends</loc>
+    <loc>https://valdi-docs.onecat.dev/codelabs/integration_with_native/4-get_friends</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/codelabs/integration_with_native/3-context_view_model</loc>
+    <loc>https://valdi-docs.onecat.dev/codelabs/integration_with_native/3-context_view_model</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/codelabs/integration_with_native/2-setup_ui</loc>
+    <loc>https://valdi-docs.onecat.dev/codelabs/integration_with_native/2-setup_ui</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/codelabs/integration_with_native/1-introduction</loc>
+    <loc>https://valdi-docs.onecat.dev/codelabs/integration_with_native/1-introduction</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/codelabs/getting_started/8-unittest</loc>
+    <loc>https://valdi-docs.onecat.dev/codelabs/getting_started/8-unittest</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/codelabs/getting_started/7-component_events</loc>
+    <loc>https://valdi-docs.onecat.dev/codelabs/getting_started/7-component_events</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/codelabs/getting_started/6-component_lifecycle</loc>
+    <loc>https://valdi-docs.onecat.dev/codelabs/getting_started/6-component_lifecycle</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/codelabs/getting_started/5-component_state</loc>
+    <loc>https://valdi-docs.onecat.dev/codelabs/getting_started/5-component_state</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/codelabs/getting_started/4-control_flow_loops</loc>
+    <loc>https://valdi-docs.onecat.dev/codelabs/getting_started/4-control_flow_loops</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/codelabs/getting_started/3-setup_code_tools</loc>
+    <loc>https://valdi-docs.onecat.dev/codelabs/getting_started/3-setup_code_tools</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/codelabs/getting_started/3-declarative_rendering</loc>
+    <loc>https://valdi-docs.onecat.dev/codelabs/getting_started/3-declarative_rendering</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/codelabs/getting_started/2-start_coding</loc>
+    <loc>https://valdi-docs.onecat.dev/codelabs/getting_started/2-start_coding</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/codelabs/getting_started/1-introduction</loc>
+    <loc>https://valdi-docs.onecat.dev/codelabs/getting_started/1-introduction</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/codelabs/advanced_ui/3-flexbox</loc>
+    <loc>https://valdi-docs.onecat.dev/codelabs/advanced_ui/3-flexbox</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/codelabs/advanced_ui/2-section_list</loc>
+    <loc>https://valdi-docs.onecat.dev/codelabs/advanced_ui/2-section_list</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/codelabs/advanced_ui/1-setup</loc>
+    <loc>https://valdi-docs.onecat.dev/codelabs/advanced_ui/1-setup</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/codelabs/shared_business_logic/ios/2-ios_hook_up_module</loc>
+    <loc>https://valdi-docs.onecat.dev/codelabs/shared_business_logic/ios/2-ios_hook_up_module</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/codelabs/shared_business_logic/ios/1-ios_setup_for_development</loc>
+    <loc>https://valdi-docs.onecat.dev/codelabs/shared_business_logic/ios/1-ios_setup_for_development</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/codelabs/shared_business_logic/android/2-android_hook_up_module</loc>
+    <loc>https://valdi-docs.onecat.dev/codelabs/shared_business_logic/android/2-android_hook_up_module</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/codelabs/shared_business_logic/android/1-android_setup_for_development</loc>
+    <loc>https://valdi-docs.onecat.dev/codelabs/shared_business_logic/android/1-android_setup_for_development</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/codelabs/integration_with_native/ios_swift/4-ios_recommendfriendscallback</loc>
+    <loc>https://valdi-docs.onecat.dev/codelabs/integration_with_native/ios_swift/4-ios_recommendfriendscallback</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/codelabs/integration_with_native/ios_swift/3-ios_hook_up_snapchatter_service</loc>
+    <loc>https://valdi-docs.onecat.dev/codelabs/integration_with_native/ios_swift/3-ios_hook_up_snapchatter_service</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/codelabs/integration_with_native/ios_swift/2-ios_hook_up_module</loc>
+    <loc>https://valdi-docs.onecat.dev/codelabs/integration_with_native/ios_swift/2-ios_hook_up_module</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/codelabs/integration_with_native/ios_swift/1-ios_setup_for_development</loc>
+    <loc>https://valdi-docs.onecat.dev/codelabs/integration_with_native/ios_swift/1-ios_setup_for_development</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/codelabs/integration_with_native/ios/5-ios_testing</loc>
+    <loc>https://valdi-docs.onecat.dev/codelabs/integration_with_native/ios/5-ios_testing</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/codelabs/integration_with_native/ios/4-ios_recommendfriendscallback</loc>
+    <loc>https://valdi-docs.onecat.dev/codelabs/integration_with_native/ios/4-ios_recommendfriendscallback</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/codelabs/integration_with_native/ios/3-ios_hook_up_snapchatter_service</loc>
+    <loc>https://valdi-docs.onecat.dev/codelabs/integration_with_native/ios/3-ios_hook_up_snapchatter_service</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/codelabs/integration_with_native/ios/2-ios_hook_up_module</loc>
+    <loc>https://valdi-docs.onecat.dev/codelabs/integration_with_native/ios/2-ios_hook_up_module</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/codelabs/integration_with_native/ios/1-ios_setup_for_development</loc>
+    <loc>https://valdi-docs.onecat.dev/codelabs/integration_with_native/ios/1-ios_setup_for_development</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/codelabs/integration_with_native/android/5-android_testing</loc>
+    <loc>https://valdi-docs.onecat.dev/codelabs/integration_with_native/android/5-android_testing</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/codelabs/integration_with_native/android/4-android_recommendFriendsCallback</loc>
+    <loc>https://valdi-docs.onecat.dev/codelabs/integration_with_native/android/4-android_recommendFriendsCallback</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/codelabs/integration_with_native/android/3-android_hook_up_snapchatter_service</loc>
+    <loc>https://valdi-docs.onecat.dev/codelabs/integration_with_native/android/3-android_hook_up_snapchatter_service</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/codelabs/integration_with_native/android/2-android_hook_up_module</loc>
+    <loc>https://valdi-docs.onecat.dev/codelabs/integration_with_native/android/2-android_hook_up_module</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vadli-docs.onecat.dev/codelabs/integration_with_native/android/1-android_setup_for_development</loc>
+    <loc>https://valdi-docs.onecat.dev/codelabs/integration_with_native/android/1-android_setup_for_development</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

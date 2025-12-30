@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Vadli 文档网站初始化脚本
+# Valdi 文档网站初始化脚本
 # 使用 pnpm 作为包管理器
 
 set -e
@@ -9,7 +9,7 @@ SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 WEBSITE_DIR="$SCRIPT_DIR/website"
 
 echo "=========================================="
-echo "  Vadli 文档网站初始化"
+echo "  Valdi 文档网站初始化"
 echo "=========================================="
 
 # 检查 pnpm 是否安装
@@ -248,7 +248,7 @@ cat > src/routes/+layout.svelte << 'EOF'
 <div class="layout">
 	<header>
 		<div class="logo">
-			<a href="/">Vadli Docs</a>
+			<a href="/">Valdi Docs</a>
 		</div>
 		<nav class="top-nav">
 			<a href="/docs/start-introduction">Docs</a>
@@ -326,12 +326,12 @@ EOF
 # src/routes/+page.svelte
 cat > src/routes/+page.svelte << 'EOF'
 <svelte:head>
-	<title>Vadli Documentation</title>
+	<title>Valdi Documentation</title>
 </svelte:head>
 
 <div class="hero">
-	<h1>Vadli Documentation</h1>
-	<p>Learn how to build cross-platform applications with Vadli</p>
+	<h1>Valdi Documentation</h1>
+	<p>Learn how to build cross-platform applications with Valdi</p>
 	
 	<div class="actions">
 		<a href="/docs/start-introduction" class="btn primary">Get Started</a>
@@ -342,7 +342,7 @@ cat > src/routes/+page.svelte << 'EOF'
 <div class="features">
 	<div class="feature">
 		<h3>📚 Documentation</h3>
-		<p>Comprehensive guides covering all aspects of Vadli development.</p>
+		<p>Comprehensive guides covering all aspects of Valdi development.</p>
 		<a href="/docs/start-introduction">Read the docs →</a>
 	</div>
 	
@@ -452,7 +452,7 @@ cat > "src/routes/docs/[...slug]/+page.svelte" << 'EOF'
 </script>
 
 <svelte:head>
-	<title>{data.metadata?.title || 'Documentation'} - Vadli Docs</title>
+	<title>{data.metadata?.title || 'Documentation'} - Valdi Docs</title>
 </svelte:head>
 
 <article class="prose prose-lg max-w-none">

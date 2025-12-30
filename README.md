@@ -1,6 +1,6 @@
-# Vadli Documentation (Unofficial Mirror)
+# Valdi Documentation (Unofficial Mirror)
 
-> This is an **unofficial** documentation site for Vadli, a cross-platform application development framework.
+> This is an **unofficial** documentation site for Valdi, a cross-platform application development framework.
 > It is maintained for convenient offline/online reference and is **periodically synced from the official documentation**.
 
 ## Structure

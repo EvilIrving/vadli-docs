@@ -1,10 +1,10 @@
-# Vadli Docs 产品设计与交互考量
+# Valdi Docs 产品设计与交互考量
 
 ## 一、产品定位
 
-Vadli Docs 是针对 Vadli 跨平台开发框架的官方文档与学习站点，核心目标：
+Valdi Docs 是针对 Valdi 跨平台开发框架的官方文档与学习站点，核心目标：
 
-- **降低学习成本**：以入门指南 + 进阶文档 + Codelabs 的结构，帮助开发者从 0 到 1 上手 Vadli。
+- **降低学习成本**：以入门指南 + 进阶文档 + Codelabs 的结构，帮助开发者从 0 到 1 上手 Valdi。
 - **支持日常查阅**：提供清晰可查的 API Reference，方便在日常编码过程中快速检索。
 - **适配多种工作流**：通过导航分区（Core、Native、Workflow、Performance 等）映射开发者真实工作场景。
 

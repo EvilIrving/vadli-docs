@@ -81,16 +81,16 @@ import { computed } from 'vue'
 
 // 静态 SEO
 useSeo({
-  title: 'My Page Title | Vadli Documentation',
+  title: 'My Page Title | Valdi Documentation',
   description: 'Page description for SEO',
-  canonical: 'https://vadli.dev/my-page'
+  canonical: 'https://valdi.dev/my-page'
 })
 
 // 或者动态 SEO
 const seoMeta = computed(() => ({
   title: dynamicTitle.value,
   description: dynamicDescription.value,
-  canonical: `https://vadli.dev${route.path}`
+  canonical: `https://valdi.dev${route.path}`
 }))
 
 useSeo(seoMeta)
@@ -107,7 +107,7 @@ updateMetaTags({
   title: 'My Title',
   description: 'My Description',
   keywords: 'keyword1, keyword2',
-  canonical: 'https://vadli.dev/page'
+  canonical: 'https://valdi.dev/page'
 })
 
 // 添加结构化数据

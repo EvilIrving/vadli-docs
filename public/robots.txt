@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://vadli-docs.onecat.dev/sitemap.xml
+Sitemap: https://valdi-docs.onecat.dev/sitemap.xml
 
 # Crawl-delay
 Crawl-delay: 1
